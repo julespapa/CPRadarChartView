@@ -1,0 +1,6 @@
+framework module CPRadarChartView {
+  umbrella header "CPRadarChartView-umbrella.h"
+
+  export *
+  module * { export * }
+}
