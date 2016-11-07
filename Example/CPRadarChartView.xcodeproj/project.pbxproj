@@ -7,46 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		51DE5307251ADFDA667AD576 /* Pods_CPRadarChartView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EB6D3996F8084E6C3BB405 /* Pods_CPRadarChartView_Example.framework */; };
+		447EC7D9530FCF46A20D6D80 /* Pods_CPRadarChartViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2473CAF37A026A99BE933B /* Pods_CPRadarChartViewDemo.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		61D63D7F6BBCF491F07C4083 /* Pods_CPRadarChartView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944A48BD4872E26376FB6F28 /* Pods_CPRadarChartView_Tests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = CPRadarChartView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		43711E643F1C2073BDF836C0 /* Pods-CPRadarChartView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRadarChartView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPRadarChartView_Example/Pods-CPRadarChartView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		474BC5EB18BEDB26DB263163 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4A6CB8AA631F1C3ED8FF9249 /* Pods-CPRadarChartView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRadarChartView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPRadarChartView_Tests/Pods-CPRadarChartView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* CPRadarChartView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPRadarChartView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		384BC4415A0F07BDD09E04E9 /* Pods-CPRadarChartViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRadarChartViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPRadarChartViewDemo/Pods-CPRadarChartViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		474BC5EB18BEDB26DB263163 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5E9932D7B24771A883356FD3 /* Pods-CPRadarChartViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRadarChartViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPRadarChartViewDemo/Pods-CPRadarChartViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* CPRadarChartViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPRadarChartViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* CPRadarChartView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPRadarChartView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		944A48BD4872E26376FB6F28 /* Pods_CPRadarChartView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRadarChartView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB11C06F9016354D1D9A54F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D05FB6A5BEEE3359DCC03EE3 /* Pods-CPRadarChartView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRadarChartView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPRadarChartView_Example/Pods-CPRadarChartView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E00AA5F1B3CDCA6CF8FAB35C /* CPRadarChartView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CPRadarChartView.podspec; path = ../CPRadarChartView.podspec; sourceTree = "<group>"; };
-		E8EB6D3996F8084E6C3BB405 /* Pods_CPRadarChartView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRadarChartView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA452C0A099CFCED31D0E225 /* Pods-CPRadarChartView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPRadarChartView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPRadarChartView_Tests/Pods-CPRadarChartView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6F2473CAF37A026A99BE933B /* Pods_CPRadarChartViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRadarChartViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB11C06F9016354D1D9A54F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E00AA5F1B3CDCA6CF8FAB35C /* CPRadarChartView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPRadarChartView.podspec; path = ../CPRadarChartView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,15 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51DE5307251ADFDA667AD576 /* Pods_CPRadarChartView_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61D63D7F6BBCF491F07C4083 /* Pods_CPRadarChartView_Tests.framework in Frameworks */,
+				447EC7D9530FCF46A20D6D80 /* Pods_CPRadarChartViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,8 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for CPRadarChartView */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				607FACD21AFB9204008FA782 /* CPRadarChartViewDemo */,
 				607FACD11AFB9204008FA782 /* Products */,
 				A2927E98822FA251D49C79CF /* Pods */,
 				8C4B6565B2D43C0BA28EC3E0 /* Frameworks */,
@@ -84,13 +57,12 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* CPRadarChartView_Example.app */,
-				607FACE51AFB9204008FA782 /* CPRadarChartView_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* CPRadarChartViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for CPRadarChartView */ = {
+		607FACD21AFB9204008FA782 /* CPRadarChartViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -100,7 +72,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for CPRadarChartView";
+			name = CPRadarChartViewDemo;
 			path = CPRadarChartView;
 			sourceTree = "<group>";
 		};
@@ -108,23 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,8 +97,7 @@
 		8C4B6565B2D43C0BA28EC3E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E8EB6D3996F8084E6C3BB405 /* Pods_CPRadarChartView_Example.framework */,
-				944A48BD4872E26376FB6F28 /* Pods_CPRadarChartView_Tests.framework */,
+				6F2473CAF37A026A99BE933B /* Pods_CPRadarChartViewDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,10 +105,8 @@
 		A2927E98822FA251D49C79CF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D05FB6A5BEEE3359DCC03EE3 /* Pods-CPRadarChartView_Example.debug.xcconfig */,
-				43711E643F1C2073BDF836C0 /* Pods-CPRadarChartView_Example.release.xcconfig */,
-				4A6CB8AA631F1C3ED8FF9249 /* Pods-CPRadarChartView_Tests.debug.xcconfig */,
-				EA452C0A099CFCED31D0E225 /* Pods-CPRadarChartView_Tests.release.xcconfig */,
+				5E9932D7B24771A883356FD3 /* Pods-CPRadarChartViewDemo.debug.xcconfig */,
+				384BC4415A0F07BDD09E04E9 /* Pods-CPRadarChartViewDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* CPRadarChartView_Example */ = {
+		607FACCF1AFB9204008FA782 /* CPRadarChartViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CPRadarChartView_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CPRadarChartViewDemo" */;
 			buildPhases = (
 				C169CE4A639BF534981F91FC /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,31 +129,10 @@
 			);
 			dependencies = (
 			);
-			name = CPRadarChartView_Example;
+			name = CPRadarChartViewDemo;
 			productName = CPRadarChartView;
-			productReference = 607FACD01AFB9204008FA782 /* CPRadarChartView_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* CPRadarChartViewDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		607FACE41AFB9204008FA782 /* CPRadarChartView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CPRadarChartView_Tests" */;
-			buildPhases = (
-				880FAD46F82BFDA46D519EBC /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				7710ED704B8E8CD7AD09E363 /* [CP] Embed Pods Frameworks */,
-				43BC9663B986E867E756D578 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
-			);
-			name = CPRadarChartView_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* CPRadarChartView_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -210,15 +141,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+						DevelopmentTeam = 87QTGF8JH4;
 					};
 				};
 			};
@@ -235,8 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* CPRadarChartView_Example */,
-				607FACE41AFB9204008FA782 /* CPRadarChartView_Tests */,
+				607FACCF1AFB9204008FA782 /* CPRadarChartViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -249,13 +176,6 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,52 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPRadarChartView_Example/Pods-CPRadarChartView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		43BC9663B986E867E756D578 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPRadarChartView_Tests/Pods-CPRadarChartView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7710ED704B8E8CD7AD09E363 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPRadarChartView_Tests/Pods-CPRadarChartView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		880FAD46F82BFDA46D519EBC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPRadarChartViewDemo/Pods-CPRadarChartViewDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9932B81B7B310DFB56A4DEFB /* [CP] Copy Pods Resources */ = {
@@ -334,7 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPRadarChartView_Example/Pods-CPRadarChartView_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPRadarChartViewDemo/Pods-CPRadarChartViewDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C169CE4A639BF534981F91FC /* [CP] Check Pods Manifest.lock */ = {
@@ -364,23 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* CPRadarChartView_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -415,8 +274,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -460,8 +321,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -480,67 +343,38 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D05FB6A5BEEE3359DCC03EE3 /* Pods-CPRadarChartView_Example.debug.xcconfig */;
+			baseConfigurationReference = 5E9932D7B24771A883356FD3 /* Pods-CPRadarChartViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87QTGF8JH4;
 				INFOPLIST_FILE = CPRadarChartView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.CPRadarChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43711E643F1C2073BDF836C0 /* Pods-CPRadarChartView_Example.release.xcconfig */;
+			baseConfigurationReference = 384BC4415A0F07BDD09E04E9 /* Pods-CPRadarChartViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87QTGF8JH4;
 				INFOPLIST_FILE = CPRadarChartView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.CPRadarChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A6CB8AA631F1C3ED8FF9249 /* Pods-CPRadarChartView_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		607FACF41AFB9204008FA782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA452C0A099CFCED31D0E225 /* Pods-CPRadarChartView_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
@@ -556,20 +390,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CPRadarChartView_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CPRadarChartViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CPRadarChartView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

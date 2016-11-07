@@ -1,37 +1,16 @@
 PODS:
   - CPRadarChartView (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - Nimble (3.2.0)
-  - Nimble-Snapshots (4.3.0):
-    - Nimble-Snapshots/Core (= 4.3.0)
-  - Nimble-Snapshots/Core (4.3.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble
-    - Quick
-  - Quick (0.10.0)
 
 DEPENDENCIES:
   - CPRadarChartView (from `../`)
-  - FBSnapshotTestCase
-  - Nimble (~> 3.0)
-  - Nimble-Snapshots
-  - Quick (~> 0.8)
 
 EXTERNAL SOURCES:
   CPRadarChartView:
     :path: ../
 
 SPEC CHECKSUMS:
-  CPRadarChartView: fba0f11f8d8fcd758e9587158cbc26201c7d6081
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
-  Nimble-Snapshots: 4ba722c35b73a680cbd856e4bc22076dfb8085d4
-  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+  CPRadarChartView: 5096d3ecbad62771831ecdb0a3ed8670979620b5
 
-PODFILE CHECKSUM: 7b78a3c57c8b9421af3b4e46b9f489f03d2b08f6
+PODFILE CHECKSUM: b7330c0ed4ea1e9297b4fb0ab7a53ef6667da3f7
 
 COCOAPODS: 1.2.0.beta.1

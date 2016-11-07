@@ -1,9 +1,9 @@
 {
   "name": "CPRadarChartView",
   "version": "0.1.0",
-  "summary": "A short description of CPRadarChartView.",
+  "summary": "Radar Chart for swift 3.0",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/CPRadarChartView",
+  "homepage": "https://github.com/chicpark7/CPRadarChartView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "chicpark7": "chicpark7@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/CPRadarChartView.git",
+    "git": "https://github.com/chicpark7/CPRadarChartView.git",
     "tag": "0.1.0"
   },
   "platforms": {
