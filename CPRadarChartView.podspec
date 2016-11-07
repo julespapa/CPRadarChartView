@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPRadarChartView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'Radar Chart for swift 3.0'
 
 # This description is used to generate tags and improve search results.
