@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  CPRadarChartView
 //
-//  Created by 박병혁 on 2016. 10. 28..
-//  Copyright © 2016년 박병혁. All rights reserved.
+//  Created by chicpark7 on 2016. 10. 28..
+//  Copyright © 2016년 chicpark7. All rights reserved.
 //
 
 import UIKit
@@ -13,17 +13,19 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var chart: CPRadarChartView!
     
-    public
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        chart.number_of_fields = 6
+        print(CPRadarChartView().number_of_steps)
+        
         chart.number_of_steps = 5
-        chart.max_value = 5;
+        chart.max_value = 5
+        
         chart.background_type = .circle
-        chart.field_names = ["드라이버파워", "드라이버\n정확성", "숏게임\n능력", "", "퍼팅게임\n능력", "그린\n적중능력"]
         chart.bg_line_color = .green
+        
+        chart.number_of_fields = 6
+        chart.field_names = ["Field 1", "Field 2", "Field 3", "Field 4", "Field 5", "Field 6"]
         chart.field_name_font = .boldSystemFont(ofSize: 10)
         chart.field_name_color = .cyan
         chart.field_saparator_color = .blue
@@ -32,7 +34,7 @@ class ViewController: UIViewController {
         let colors = [UIColor.red.withAlphaComponent(0.5), UIColor.blue.withAlphaComponent(0.5), UIColor.purple.withAlphaComponent(0.5), UIColor.brown.withAlphaComponent(0.5), UIColor.cyan.withAlphaComponent(0.5)]
         for i in 0...0 {
             
-            var item = CPRadarChartItem("Player \(i)", [random5float(), random5float(), random5float(), -1, random5float(), random5float()], colors[i], colors[i].withAlphaComponent(1))
+            var item = CPRadarChartItem("Player \(i)", [random5float(), random5float(), random5float(), random5float(), random5float(), random5float()], colors[i], colors[i].withAlphaComponent(1))
             chart.add(item: &item)
         }
         
@@ -48,7 +50,7 @@ class ViewController: UIViewController {
         
         let colors = [UIColor.red.withAlphaComponent(0.5), UIColor.blue.withAlphaComponent(0.5), UIColor.purple.withAlphaComponent(0.5), UIColor.brown.withAlphaComponent(0.5), UIColor.cyan.withAlphaComponent(0.5)]
         let color = colors[Int(arc4random()) % 5]
-        var item = CPRadarChartItem("Player 0", [random5float(), random5float(), random5float(), -1, random5float(), random5float()], color, color)
+        var item = CPRadarChartItem("Player 0", [random5float(), random5float(), random5float(), random5float(), random5float(), random5float()], color, color)
         if let identifier = chart.items.last?.identifier {
             chart.set(item: &item, forIdentifier: identifier)
         }

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		05A1E8A88DA4D0ABC9413DEEB146A024 /* Pods-CPRadarChartViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B965C624D11799B25828746354FD7094 /* Pods-CPRadarChartViewDemo-dummy.m */; };
 		29DEB9C4A21233C0F9ECD4D74DA685DD /* CPRadarChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13989118FD70116F501E89E6770128D8 /* CPRadarChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51E1D8CDDAB42FC6A9989A1D16A21A6B /* CPRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208B1A032E86911127615C521479A3FC /* CPRadarChartView.swift */; };
+		3B21A76D1DD03DE40081F124 /* CPRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208B1A032E86911127615C521479A3FC /* CPRadarChartView.swift */; };
 		9A17CA0A49F18C05991DA55C70054F0D /* Pods-CPRadarChartViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBEAE97B90F531A060348F9A98A44B3 /* Pods-CPRadarChartViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F70B3815AA604ACCE4BC115EF3285D41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F7D557271A6949BD2F6AACEA17741C25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -35,18 +35,18 @@
 		2DBEAE97B90F531A060348F9A98A44B3 /* Pods-CPRadarChartViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPRadarChartViewDemo-umbrella.h"; sourceTree = "<group>"; };
 		322C5FA4B8E27258254ECDD3D05622B5 /* Pods-CPRadarChartViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPRadarChartViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		3BF009669A9AB2A40570E3B3B38F5CFC /* Pods-CPRadarChartViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPRadarChartViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E03E110BA6631F50812D73DE826A36A /* Pods_CPRadarChartViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPRadarChartViewDemo.framework; path = "Pods-CPRadarChartViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E03E110BA6631F50812D73DE826A36A /* Pods_CPRadarChartViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPRadarChartViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DF4505001E0A087E1CC8360E57FA17 /* Pods-CPRadarChartViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPRadarChartViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A08F6039592BAC689F57C32B6044DDF0 /* CPRadarChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CPRadarChartView.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08F6039592BAC689F57C32B6044DDF0 /* CPRadarChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CPRadarChartView.modulemap; sourceTree = "<group>"; };
 		A6BAB6D17895F28A8B198CE676D92AD1 /* CPRadarChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CPRadarChartView-prefix.pch"; sourceTree = "<group>"; };
-		A712833B508C0B8FD35A9034F024EF4D /* Pods-CPRadarChartViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CPRadarChartViewDemo.modulemap"; sourceTree = "<group>"; };
+		A712833B508C0B8FD35A9034F024EF4D /* Pods-CPRadarChartViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CPRadarChartViewDemo.modulemap"; sourceTree = "<group>"; };
 		B02479442F7F50A8865D59AFBBAEE85E /* Pods-CPRadarChartViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRadarChartViewDemo-frameworks.sh"; sourceTree = "<group>"; };
 		B965C624D11799B25828746354FD7094 /* Pods-CPRadarChartViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPRadarChartViewDemo-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F08E25D5B80DDBFFC385D2F3F50B4C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D7F4EC1AF0D8B4BDAA5B823A8C7C7F /* Pods-CPRadarChartViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPRadarChartViewDemo-resources.sh"; sourceTree = "<group>"; };
-		F7005495BB0DFFD374C88368E1A708D8 /* CPRadarChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CPRadarChartView.framework; path = CPRadarChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7005495BB0DFFD374C88368E1A708D8 /* CPRadarChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPRadarChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6D03DF75CB438DA0D0E17B48737AFB /* CPRadarChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CPRadarChartView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,6 @@
 			children = (
 				BFFB41FAB86D2E26398C189546F50DD6 /* Classes */,
 			);
-			name = CPRadarChartView;
 			path = CPRadarChartView;
 			sourceTree = "<group>";
 		};
@@ -155,7 +154,6 @@
 			children = (
 				208B1A032E86911127615C521479A3FC /* CPRadarChartView.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -280,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB8F1BE2506091D9D963884D70973F2 /* CPRadarChartView-dummy.m in Sources */,
-				51E1D8CDDAB42FC6A9989A1D16A21A6B /* CPRadarChartView.swift in Sources */,
+				3B21A76D1DD03DE40081F124 /* CPRadarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

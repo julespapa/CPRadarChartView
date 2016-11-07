@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPRadarChartView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Radar Chart for swift 3.0'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Simple Radar Chart for swift 3.0
                        DESC
 
   s.homepage         = 'https://github.com/chicpark7/CPRadarChartView'

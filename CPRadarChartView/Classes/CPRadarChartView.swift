@@ -2,8 +2,8 @@
 //  CPRadarChartView.swift
 //  CPRadarChartViewDemo
 //
-//  Created by 박병혁 on 2016. 10. 28..
-//  Copyright © 2016년 박병혁. All rights reserved.
+//  Created by chicpark7 on 2016. 10. 28..
+//  Copyright © 2016년 chicpark7. All rights reserved.
 //
 
 import UIKit
@@ -170,10 +170,35 @@ public class CPRadarChartView: UIView {
     
     public func remove(identifier: String) {
         
-        if let index = items.index(where: {$0.identifier == identifier}) {
-            items.remove(at: index)
-            let shape_layer = shape_layers.removeValue(forKey: identifier)
-            shape_layer?.removeFromSuperlayer()
+        if let index = items.index(where: {$0.identifier == identifier}),
+            let shape_layer = shape_layers.removeValue(forKey: identifier) {
+            
+            let item = items[index]
+            
+            let start_path = path_by(item: item)
+            let cgPath = zero_path()
+            
+            shape_layer.path = cgPath
+            shape_layer.fillColor = item.fill_color?.cgColor
+            shape_layer.strokeColor = item.stroke_color?.cgColor
+
+            CATransaction.begin()
+            
+            let path_ani = CABasicAnimation(keyPath: "path")
+            path_ani.duration = 0.5
+            path_ani.fromValue = start_path
+            path_ani.toValue = cgPath
+            path_ani.isRemovedOnCompletion = true
+            path_ani.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+            
+            CATransaction.setCompletionBlock({
+                print("FEFWFWE")
+                self.items.remove(at: index)
+                shape_layer.removeFromSuperlayer()
+            })
+
+            shape_layer.add(path_ani, forKey: path_ani.keyPath)
+            CATransaction.commit()
         }
         
     }
